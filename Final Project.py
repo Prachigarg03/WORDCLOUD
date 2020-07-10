@@ -1,4 +1,4 @@
-# Here are all the installs and imports you will need for your word cloud script and uploader widget
+# Here are all the installs and imports I used for my word cloud script and uploader widget
 
 !pip install wordcloud
 !pip install fileupload
@@ -34,7 +34,7 @@ _upload()
 
 
 def calculate_frequencies(file_contents):
-    # Here is a list of punctuations and uninteresting words you can use to process your text
+    # Here is a list of punctuations and uninteresting words I used to process my text
     punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
     uninteresting_words = ["the", "a", "to", "if", "is", "it", "of", "and", "or", "an", "as", "i", "me", "my", \
                            "we", "our", "ours", "you", "your", "yours", "he", "she", "him", "his", "her", "hers", "its",
